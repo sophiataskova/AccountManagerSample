@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val accountType = "com.reddit.account"
+        val accountType = "com.sofiya.account"
 
         val am = AccountManager.get(this) // "this" references the current Context
         val accounts = am.getAccountsByType(accountType)
